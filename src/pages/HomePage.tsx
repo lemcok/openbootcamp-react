@@ -1,6 +1,7 @@
 import { ContactList } from "../components/contact/ContactList"
 import { Header } from "../components/header/Header"
 import { TaskList } from "../components/TaskList"
+import { ComponentA } from "../ejercicios123/ComponentA"
 import { Task } from "../interfaces/Task"
 
 const listaTareas:Task[] = [
@@ -22,12 +23,9 @@ const listaTareas:Task[] = [
 export const HomePage = () => {
    return (
       <div className="bg-slate-50 h-screen">
-         <Header />
          <main>
-            <TaskList tasks={ listaTareas }/>
-
             <div className="flex w-auto place-content-center">
-               <ContactList />
+               <ComponentA />
             </div>
          </main>
       </div>
