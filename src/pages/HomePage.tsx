@@ -3,6 +3,7 @@ import { Header } from "../components/header/Header"
 import { TaskList } from "../components/TaskList"
 import { ComponentA } from "../ejercicios123/ComponentA"
 import { Task } from "../interfaces/Task"
+import { MiComponenteConContexto } from "../lesson456/UseContext"
 
 const listaTareas:Task[] = [
    {
@@ -25,7 +26,8 @@ export const HomePage = () => {
       <div className="bg-slate-50 h-screen">
          <main>
             <div className="flex w-auto place-content-center">
-               <ComponentA />
+               {/* <ComponentA /> */}
+               <MiComponenteConContexto />
             </div>
          </main>
       </div>
