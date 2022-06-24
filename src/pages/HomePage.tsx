@@ -2,6 +2,7 @@ import { ContactList } from "../components/contact/ContactList"
 import { Header } from "../components/header/Header"
 import { TaskList } from "../components/TaskList"
 import { ComponentA } from "../ejercicios123/ComponentA"
+import { Clock } from "../exercises456/Clock"
 import { Task } from "../interfaces/Task"
 import { MiComponenteConContexto } from "../lesson456/UseContext"
 
@@ -27,7 +28,8 @@ export const HomePage = () => {
          <main>
             <div className="flex w-auto place-content-center">
                {/* <ComponentA /> */}
-               <MiComponenteConContexto />
+               {/* <MiComponenteConContexto /> */}
+               <Clock />
             </div>
          </main>
       </div>
